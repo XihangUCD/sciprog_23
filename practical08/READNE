@@ -1,0 +1,9 @@
+There are codes for practical 8 To compile:
+
+// gcd.c
+gcc -Wall -o gcd gcd.c -lm
+
+//gcdscan.c
+gcc -Wall -o gcdscan gcdscan.c -lm
+
+

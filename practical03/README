@@ -1,0 +1,5 @@
+There are codes for Practical03 To compile:
+
+gcc -o trap trao.c -lm
+
+gcc -o print printf.c
