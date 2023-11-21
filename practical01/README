@@ -1,0 +1,4 @@
+There are codes for Practical01 To compile:
+
+gcc -o helloworld helloworld.c
+
