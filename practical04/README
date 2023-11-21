@@ -1,0 +1,8 @@
+There are codes for Practical04 To compile:
+
+//tanCal.c
+gcc -o tan tanCal.c -lm
+
+
+//areaCal.c
+gcc -o area areaCal.c -lm
