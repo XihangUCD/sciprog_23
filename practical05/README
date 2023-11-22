@@ -1,0 +1,15 @@
+There are codes for Practical05 To compile:
+
+// use_scanf.c
+gcc -o scanf use_scanf.c 
+
+   //check error
+ gcc -o scanf use_scanf.c -Wall
+
+
+//fibo
+gcc -o fib fibonacci.c
+
+
+//arct
+gcc -o arct arctan.c -lm
