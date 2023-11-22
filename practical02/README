@@ -1,0 +1,8 @@
+There are codes for Practical02 To compile:
+
+//for Sum.c
+gcc -o sum Sum.c
+
+//for Conversion.c
+gcc -o con Conversion.c -lm
+
