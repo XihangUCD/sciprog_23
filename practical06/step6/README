@@ -1,0 +1,9 @@
+There are codes for Practical06/step6 To compile
+
+//compile respectively first to get main.o and matmult.o
+gcc -c main.c
+gcc -c matmult.c
+
+//link them together to make them excutable
+gcc -o matmultc main.o matmult.o 
+

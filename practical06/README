@@ -1,0 +1,6 @@
+There are codes for Practical06 To compile:
+
+// matmult/matmult.c
+gcc -o matmult matmult.c 
+
+

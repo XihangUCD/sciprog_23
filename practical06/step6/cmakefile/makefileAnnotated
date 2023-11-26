@@ -1,0 +1,27 @@
+CC = gcc 
+
+//capital CC for C compilers
+
+
+CCFLAGS = -O3 
+//Generally used but not necessary here
+
+LDFLAGS = -lm 
+//link to the math library, not used for this exersise
+
+all: matmultc 
+//compile everything in the project
+
+matmultc: main.o matmult.o 
+//target of two c files followed by how to get this target
+	$(CC) -o $@ $^ $(LDFLAGS) 
+
+matmult.o: matmult.c
+	$(CC) -c $(CCFLAGS) $< 
+
+main.o: main.c
+	$(CC) -c $(CCFLAGS) $< 
+
+
+clean:
+	rm *.o

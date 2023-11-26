@@ -1,0 +1,11 @@
+There are codes for Practical06/step6/cmakefile To use
+
+
+make
+
+//show the results
+./matmultc
+
+//clean the file
+make clean
+
