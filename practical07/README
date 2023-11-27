@@ -1,0 +1,8 @@
+There are codes for Practical07 To compile:
+
+//Please use for finde 
+gcc finded.c 
+
+//Please use this for dynamocallocation
+gcc dynamicallocation.c -o dynamicallocation
+
